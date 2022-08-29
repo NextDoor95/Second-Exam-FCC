@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Criptocurrency Form</h1>
+        <p id="description" class="description text-center">
+          Thank you for taking the time to help us understand more about crypto world!
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">
+            Enter your wallet for the airdrop
+            <span class="clue">(Metamask/Phantom)</span></label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your Metamask or Phantom wallet"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Age<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Age"
+          />
+        </div>
+        <div class="form-group">
+          <p>Which option best describes your general cryptographic knowledge?</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select current role</option>
+            <option value="essential">Essential (i barely know what bitcoin is)</option>
+            <option value="Intermediate">Intermediate level (I have crypto but I don't know enough)
+            </option>
+            <option value="Advanced">Advanced (I use DeFi, NFTs, etc. I use Cryptos frequently)</option>
+            <option value="Advanced & Technical">Advanced + Technical (I have knowledge about web3 development)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Would you recommend information about crypto to a friend?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Definitely</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Maybe</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>What is your favorite criptocurrency exchange?</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Select an exchange</option>
+            <option value="Kucoin">Kucoin</option>
+            <option value="CoinMarketCap">CoinMarketCap</option>
+            <option value="Binance">Binance</option>
+            <option value="PancakeSwap">PancakeSwap</option>
+            <option value="Raydium">Raydium</option>
+            <option value="PooCoin">Poocoin</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            What cryptos would you invest in long term? (5 years or more)
+          </p>
+
+          <label>
+            <input
+              name="prefer"
+              value="Bitcoin"
+              type="checkbox"
+              class="input-checkbox"
+            />Bitcoin</label>
+          <label>
+            <input
+              name="prefer"
+              value="Ethereum"
+              type="checkbox"
+              class="input-checkbox"
+            />Ethereum</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Cardano"
+              type="checkbox"
+              class="input-checkbox"
+            />Cardano</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Solana"
+              type="checkbox"
+              class="input-checkbox"
+            />Solana</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Ripple"
+              type="checkbox"
+              class="input-checkbox"
+            />Ripple</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="LiteCoin"
+              type="checkbox"
+              class="input-checkbox"
+            />Litecoin</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="BNB"
+              type="checkbox"
+              class="input-checkbox"
+            />BNB</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Dogecoin"
+              type="checkbox"
+              class="input-checkbox"
+            />Dogecoin</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Tron"
+              type="checkbox"
+              class="input-checkbox"
+            />Tron</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Polygon"
+              type="checkbox"
+              class="input-checkbox"
+            />Polygon</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Cronos"
+              type="checkbox"
+              class="input-checkbox"
+            />Cronos</label
+          >
+        </div>
+
+        <div class="form-group">
+
+          <div class="form-group">
+            <p>
+              what do you do when you feel anxiety about market prices?
+              <span class="clue">(more people than you imagine go through this situation)</span>
+            </p>
+  
+            <label>
+              <input
+                name="prefer"
+                value="do some kind of sport"
+                type="checkbox"
+                class="input-checkbox"
+              />do some kind of sport</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="Do meditation"
+                type="checkbox"
+                class="input-checkbox"
+              />Do meditation</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="Listen to music"
+                type="checkbox"
+                class="input-checkbox"
+              />Listen to music</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="meet with friends"
+                type="checkbox"
+                class="input-checkbox"
+              />Meet with friends</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="I make waffles"
+                type="checkbox"
+                class="input-checkbox"
+              />I make smiley waffles</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="Others"
+                type="checkbox"
+                class="input-checkbox"
+              />Others</label
+            >
+            
+          </div>
+  
+          <div class="form-group">
+            <p>Any comments or suggestions to help others in this case?</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Enter your comment here..."
+            ></textarea>
+          </div>
+  
+          <div class="form-group">
+
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
